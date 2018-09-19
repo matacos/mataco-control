@@ -10,4 +10,4 @@
 
 ## Prototipo
 
-![Listado de alumnos inscriptos curso](./prototipos/docente.png)
+![Listado de alumnos inscriptos curso](./prototipos/listado_inscriptos.png)
