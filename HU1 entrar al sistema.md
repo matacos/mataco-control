@@ -12,9 +12,17 @@
 9. (web) Si el usuario ingresa un padrón y este se encuentra en la base de datos, el sistema mostrará el mensaje "Esa combinación de DNI y contraseña no es correcta", y no se le permitirá acceder.
 10. (android y web) Si el usuario no ingresa un valor en el campo "contraseña", se mostrará el mensaje "Recuerde ingresar la contraseña", y no se le permitiá acceder.
 11. (android y web) Si el usuario ingresa un DNI correcto (web) o un padrón correcto (android), entonces se accederá a la siguiente pantalla, que es el "mis inscripciones"(android) o es la pantalla principal del profesor o del administrador de departamento (web).
+12. (android) Los mensajes detallados en los criterios de aceptación anteriores se muestran como mensajes toast, luego de haber todaco "enviar" para enviar el formulario.
+13. (web) Los mensajes detallados en los criterios de aceptación anteriores se muestran como texto rojo en la pantalla de ingreso, luego de enviar el formulario.
 
 ## Criterios de aceptación para siguientes sprints
-12. (android y web) Si el usuario ingresa una combinación inválida de DNI y contraseña (web) o de padrón y contraseña (android), entonces se mostrará el mensaje "Esa combinación de DNI y contraseña no es correcta", y no se le permitirá acceder.
-13. (android y web) Si el usuario ingresa una combinación válida de DNI y contraseña (web) o de padrón y contraseña (android), entonces se accederá a la siguiente pantalla, que es el "mis inscripciones"(android) o es la pantalla principal del profesor o del administrador de departamento (web).
+14. (android y web) Si el usuario ingresa una combinación inválida de DNI y contraseña (web) o de padrón y contraseña (android), entonces se mostrará el mensaje "Esa combinación de DNI y contraseña no es correcta", y no se le permitirá acceder.
+15. (android y web) Si el usuario ingresa una combinación válida de DNI y contraseña (web) o de padrón y contraseña (android), entonces se accederá a la siguiente pantalla, que es el "mis inscripciones"(android) o es la pantalla principal del profesor o del administrador de departamento (web).
 
 ## Prototipos
+
+### App android:
+![ingreso en app](./prototipos/ingreso_app.png)
+
+### Interfaz web:
+![ingreso web](./prototipos/ingreso_web.png)
