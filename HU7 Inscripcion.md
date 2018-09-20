@@ -1,18 +1,14 @@
-#HU7: Como alumno quiero poder inscribirme a una cursada 
+#HU8: Como profesor quiero poder aceptar alumnos condicionales a mi curso
 
 ## Criterios de aceptación
 
-1. Dado un alumno que visualizó todos los cursos disponibles de una materia en particular cuando presione el botón “Inscribirse” correspondiente a cierto curso, entonces el alumno quedará inscripto a ese curso. 
+1. Dado un docente que visualizó el listado de alumnos inscriptos a uno de sus cursos cuando se muestren los alumnos inscriptos condicionales entonces figurará al lado de los datos del alumno un botón para aceptarlo al curso.
 
-2. Dada una cantidad de cupos disponibles de un curso, cuando un alumno se inscribe a una materia, entonces la cantidad de cupos disponibles debe disminuir en 1.
+2. Dado un docente que visualizó el listado de alumnos inscriptos a uno de sus cursos cuando este presione el botón para aceptar un alumno condicional entonces se mostrará un modal para que el profesor confirme esta acción.
 
-3. Dado un alumno que visualizó los cursos disponibles de una materia en particular, cuando un curso no tenga suficientes cupos disponibles, entonces el alumno sólo podrá inscribirse como condicional.
+3. Dado un docente que aceptó un alumno condicional cuando el profesor confirme la acción entonces el alumno pasará a ser alumno regular del curso.
 
-4. Dado un alumno que visualizó los cursos disponibles de una materia en particular, cuando un curso no tenga suficientes cupos disponibles, entonces el botón de “Inscribirse” se mostrará como “Inscribirse como condicional” y se le mostrará un mensaje al alumno.
-
-5. Dado un alumno que se encuentra inscripto a una materia en particular, cuando visualice los cursos de esa materia, el botón de inscripción debe mostrarse de color gris y no debe ser posible presionarlo.
-	
 
 ## Prototipo
 
-![Inscripción a curso](./prototipos/materia.png)
+![Aceptar condicionales](./prototipos/docente.png)
