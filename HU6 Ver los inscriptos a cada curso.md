@@ -1,4 +1,4 @@
-#HU6: Ver los inscriptos a cada curso
+#HU6: Como docente quiero poder ver los alumnos inscriptos en mi curso
 
 ## Criterios de aceptación
 1. Dado un docente que ingresó al sistema, se debe mostrar un listado con el nombre de todas las materias de las que forma parte.

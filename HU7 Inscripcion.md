@@ -1,4 +1,4 @@
-#HU8: Como profesor quiero poder aceptar alumnos condicionales a mi curso
+#HU8: Como docente quiero poder aceptar alumnos condicionales a mi curso
 
 ## Criterios de aceptación
 

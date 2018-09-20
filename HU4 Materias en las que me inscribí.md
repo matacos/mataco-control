@@ -1,4 +1,4 @@
-#HU4: Ver en qué materias me inscribí
+#HU4: Como alumno quiero poder ver en qué materias me inscribí
 
 ## Criterios de aceptación
 1. Dado un alumno que ingresó a la aplicación, cuando presiona el botón de “Mis Inscripciones” se mostrará un listado con todos los cursos en los que se inscribió.
