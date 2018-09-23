@@ -1,4 +1,4 @@
-#HU7: Como alumno quiero poder inscribirme a una cursada
+# HU7: Como alumno quiero poder inscribirme a una cursada
 
 ## Criterios de aceptación
 

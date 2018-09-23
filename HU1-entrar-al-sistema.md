@@ -1,4 +1,4 @@
-#HU1: Como usuario, quiero entrar al sistema
+# HU1: Como usuario, quiero entrar al sistema
 
 ## Criterios de aceptación
 1. Cuando una persona no entró al sistema, no verá otra pantalla que no sea la de login.

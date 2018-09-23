@@ -1,4 +1,4 @@
-#HU3: Como alumno quiero poder ver la oferta académica disponible
+# HU3: Como alumno quiero poder ver la oferta académica disponible
 
 ## Criterios de aceptación
 
