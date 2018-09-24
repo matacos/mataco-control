@@ -5,7 +5,7 @@ import json
 from collections import namedtuple
 Repo=namedtuple("Repo",["name","id"])
 Issue=namedtuple("Issue",["number","title","repo"])
-Comment = namedtuple("Comment",["user","minutes"])
+Comment = namedtuple("Comment",["user","minutes","date"])
 user = input("usuario github?")
 password = getpass.getpass("contraseña github?")
 #print (user)
@@ -88,16 +88,19 @@ def get_comments(issue):
     repo=issue.repo
     j_response=requests.get("https://api.github.com/repos/matacos/{}/issues/{}/comments".format(repo.name,issue.number),auth=(user,password)).json()
     #print(j_response)
-    comments = [Comment(c["user"]["login"],get_minutes(c["body"])) for c in j_response]
+    comments = [Comment(c["user"]["login"],get_minutes(c["body"]),c["updated_at"]) for c in j_response]
     return comments
 
 def get_time_explanation(issue):
-    workers={}
+    works=[]
     comments=get_comments(issue)
     for c in comments:
-        total_minutes=workers.get(c.user,0)+c.minutes
-        workers[c.user]=total_minutes
-    return workers;
+        works.append({
+            "user":c.user,
+            "date":c.date,
+            "work":c.minutes
+        })
+    return works;
 def get_time_explanations(issues):
     return {get_issue_name(i):get_time_explanation(i) for i in issues}
 
