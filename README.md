@@ -6,4 +6,4 @@
  - [HU5 Desinscribirme de una cursada](./HU5-Desinscribirme-de-una-cursada)
  - [HU6 Ver los inscriptos a cada curso](HU6-Ver-los-inscriptos-a-cada-curso)
  - [HU7 Inscripcion](HU7-Inscripcion)
- - [HU8 Aceptar condicionales](HU7-Aceptar-condicionales)
+ - [HU8 Aceptar condicionales](HU8-Aceptar-condicionales)
