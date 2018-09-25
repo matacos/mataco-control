@@ -69,6 +69,8 @@ def mostrar_puntos(con_labels,por_repos):
 
     fig, ax = plt.subplots()
     ax.plot([0,10],[0,10])
+    ax.plot([0,10],[0,20])
+    ax.plot([0,10],[0,5])
     ax.scatter(x,y,c=colors)
     plt.xlabel("estimación")
     plt.ylabel("Total tiempo invertido")
