@@ -9,6 +9,37 @@
  - El usuario puede agregar cursos a cada materia
  - El usuario puede agregar o quitar horarios de clase de un curso. Cada período de clase de un curso está asociado a un aula.
  - El usuario puede agregar o quitar docentes de un curso.
+## Criterios de acepatación respecto de los campos [nuevos 24/9]
+ - **( \*1 )** En el campo DNI el usuario sólo puede escribir dígitos decimales, no puede escribir puntos. El campo "Cargo" permite los siguientes valores:
+    - Jefe de Cátedra
+    - Jefe de Trabajos Prácticos
+    - Ayudante
+ - **( \*2 )** En el campo vacantes el usuario sólo puede escribir dígitos decimales. Además, no se permite que este valor sea mayor a 300, lo cual se informará una vez presionado el botón "aceptar". 
+ - **( \*3 )** El nombre del curso debe ser un texto de menos de 100 caracteres.
+ - **( \*4 )** Las sedes válidas son:
+    - Paseo Colón
+    - Las Heras
+    - Ciudad Universitaria
+ - **( \*5 )** El aula es un campo alfanumérico de menos de 100 caracteres, ya que los códigos de algunas aulas incluyen letras.
+ - **( \*6 )** Los días permitidos son:
+    - Lunes
+    - Martes
+    - Miércoles
+    - Jueves
+    - Viernes
+    - Sábado
+ - **( \*7 )** y **( \*8 )**: Son horarios con el formato "HH:MM", con el horario de 00:00 a 23:59 (sin AM/PM), este campo es alfanumérico y no tiene ninguna restricción en los caracteres que puede incluir, aunque al momento de "aceptar" el diálogo, se verificará que el formato sea correcto. **[Deseable: control que permita introducir horarios más facilemente]**. El horario de fin debe ser posterior al de finalización (ya que todas las clases empiezan y terminan en el mismo día), lo cual se verifica al momento de "aceptar" el diálogo.
+ - **( \*9 )**: Este campo soporta las siguientes opciones:
+    - Teórica Obligatoria
+    - Teórico-Práctica Obligatoria
+    - Práctica Obligatoria
+    - Desarrollo y Consultas
+    - Teórica Opcional
+    - Teórico-Práctica Opcional
+    - Práctica Opcional
+
+## Deseable [nuevo 24/9]
+*El cliente manifestó su interés en que el modal para agregar un profesor permita buscar por apellido en vez de por DNI, explicó que el administrador de departamento no recuerda los  DNI pero sí los apellidos.*
 
 ## Prototipos
 ### Pantalla principal de departamento
