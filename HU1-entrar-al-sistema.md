@@ -11,8 +11,8 @@
 8. (web) Si el usuario ingresa un DNI válido que no se encuentra en la base de datos, se mostrará el mensaje "Esa combinación de DNI y contraseña no es correcta", y no se le permitirá acceder.
 9. (web) Si el usuario ingresa un padrón y este se encuentra en la base de datos, el sistema mostrará el mensaje "Esa combinación de DNI y contraseña no es correcta", y no se le permitirá acceder.
 10. (android y web) Si el usuario no ingresa un valor en el campo "contraseña", se mostrará el mensaje "Recuerde ingresar la contraseña", y no se le permitiá acceder.
-11. (android y web) Si el usuario ingresa un DNI correcto (web) o un padrón correcto (android), entonces se accederá a la siguiente pantalla, que es el "mis inscripciones"(android) o es la pantalla principal del profesor o del administrador de departamento (web).
-12. (android) Los mensajes detallados en los criterios de aceptación anteriores se muestran como mensajes toast, luego de haber todaco "enviar" para enviar el formulario.
+11. (android y web) Si el usuario ingresa un DNI correcto (web) o un padrón correcto (android), entonces se accederá a la siguiente pantalla, que es el "Oferta Académica"(android) o es la pantalla principal del profesor o del administrador de departamento (web).
+12. (android) Los mensajes detallados en los criterios de aceptación anteriores se muestran como mensajes toast, luego de haber tocado "enviar" para enviar el formulario.
 13. (web) Los mensajes detallados en los criterios de aceptación anteriores se muestran como texto rojo en la pantalla de ingreso, luego de enviar el formulario.
 14. Si un profesor es también administrador de departamento, al ingresar entrará a la pantalla de profesor, y tendrá un link que lo conducirá a la pantalla de administración de departamento.
 
