@@ -8,6 +8,8 @@
 
 3. Dado un docente que aceptó un alumno condicional cuando el profesor confirme la acción entonces el alumno pasará a ser alumno regular del curso.
 
+4. *El profesor no puede desinscribir alumnos ya aceptados*
+
 
 ## Prototipo
 
