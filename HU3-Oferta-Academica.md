@@ -4,7 +4,7 @@
 
 1. Dado un alumno que ingresó a la aplicación cuando presiona el botón de “Oferta Académica” entonces se mostrará un listado con el código y nombre de todas las materias de su carrera que todavía no aprobó.
 
-*Aclaración respecto de (1): si el estudiante está inscripto a más de una carrera, antes de elegir una materia a la cual inscribirse, deberá elegir una carrera por la cual filtrar las materias.*
+*Aclaración respecto de (1): si el estudiante está inscripto a más de una carrera, antes de elegir una materia a la cual inscribirse, deberá elegir una carrera por la cual filtrar las materias.* **[ESTA CARACTERÍSTICA ES _DESEABLE_ Y PODRÍA NO INCLUIRSE EN EL SPRINT 1]**
 
 2. Dado un alumno que visualizó su oferta académica, cuando ~~presiona el botón correspondiente al nombre de la~~ elige una  materia entonces se mostrará un listado con todos los cursos disponibles de la materia indicando, para cada caso, los nombres de los profesores y horarios.
 
