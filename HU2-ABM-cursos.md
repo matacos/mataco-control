@@ -37,9 +37,6 @@
     - Teórico Práctica,
     - Desarrollo y Consulta
 
-## Deseable [nuevo 24/9]
-*El cliente manifestó su interés en que el modal para agregar un profesor permita buscar por apellido en vez de por DNI, explicó que el administrador de departamento no recuerda los  DNI pero sí los apellidos.*
-
 ## Prototipos
 ### Pantalla principal de departamento
 ![Pantalla principal de departamento](./prototipos/depto/depto-ppal.png)
