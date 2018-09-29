@@ -30,13 +30,12 @@
     - Sábado
  - **( \*7 )** y **( \*8 )**: Son horarios con el formato "HH:MM", con el horario de 00:00 a 23:59 (sin AM/PM), este campo es alfanumérico y no tiene ninguna restricción en los caracteres que puede incluir, aunque al momento de "aceptar" el diálogo, se verificará que el formato sea correcto. **[Deseable: control que permita introducir horarios más facilemente]**. El horario de fin debe ser posterior al de finalización (ya que todas las clases empiezan y terminan en el mismo día), lo cual se verifica al momento de "aceptar" el diálogo.
  - **( \*9 )**: Este campo soporta las siguientes opciones:
-    - Teórica Obligatoria
-    - Teórico-Práctica Obligatoria
-    - Práctica Obligatoria
-    - Desarrollo y Consultas
-    - Teórica Opcional
-    - Teórico-Práctica Opcional
-    - Práctica Opcional
+    - Teórica Obligatoria, 
+    - Práctica Obligatoria, 
+    - Teórico Práctica Obligatoria, 
+    - Teórica, Práctica, 
+    - Teórico Práctica,
+    - Desarrollo y Consulta
 
 ## Deseable [nuevo 24/9]
 *El cliente manifestó su interés en que el modal para agregar un profesor permita buscar por apellido en vez de por DNI, explicó que el administrador de departamento no recuerda los  DNI pero sí los apellidos.*
