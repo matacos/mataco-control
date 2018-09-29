@@ -2,25 +2,38 @@
 
 ## Criterios de aceptación
  - El usuario sólo puede acceder a las pantallas de administración del departamento si es un administrador del departamento correspondiente.
+ 
  - No es posible que un usuario administre las materias de más de un departamento.
+ 
  - El usuario sólo puede ver las materias del departamento que le corresponde.
+ 
  - Si el usuario es también profesor, verá un link para ir a la vista de profesor
+ 
  - El usuario ve los cursos de cada materia por separado.
+ 
  - El usuario puede agregar cursos a cada materia
+ 
  - El usuario puede agregar o quitar horarios de clase de un curso. Cada período de clase de un curso está asociado a un aula.
+ 
  - El usuario puede agregar o quitar docentes de un curso.
-## Criterios de acepatación respecto de los campos [nuevos 24/9]
- - **( \*1 )** En el campo DNI el usuario sólo puede escribir dígitos decimales, no puede escribir puntos. El campo "Cargo" permite los siguientes valores:
+ 
+## Criterios de aceptación respecto de los campos [nuevos 24/9]
+ - **( \*1 )** En el campo **DNI** el usuario sólo puede escribir dígitos decimales, no puede escribir puntos. El campo "Cargo" permite los siguientes valores:
     - Jefe de Cátedra
     - Jefe de Trabajos Prácticos
     - Ayudante
- - **( \*2 )** En el campo vacantes el usuario sólo puede escribir dígitos decimales. Además, no se permite que este valor sea mayor a 300, lo cual se informará una vez presionado el botón "aceptar". 
+    
+ - **( \*2 )** En el campo **vacantes** el usuario sólo puede escribir dígitos decimales. Además, no se permite que este valor sea mayor a 300, lo cual se informará una vez presionado el botón "Aceptar".
+ 
  - **( \*3 )** El nombre del curso debe ser un texto de menos de 100 caracteres.
+ 
  - **( \*4 )** Las sedes válidas son:
     - Paseo Colón
     - Las Heras
     - Ciudad Universitaria
+    
  - **( \*5 )** El aula es un campo alfanumérico de menos de 100 caracteres, ya que los códigos de algunas aulas incluyen letras.
+ 
  - **( \*6 )** Los días permitidos son:
     - Lunes
     - Martes
@@ -28,7 +41,9 @@
     - Jueves
     - Viernes
     - Sábado
- - **( \*7 )** y **( \*8 )**: Son horarios con el formato "HH:MM", con el horario de 00:00 a 23:59 (sin AM/PM), este campo es alfanumérico y no tiene ninguna restricción en los caracteres que puede incluir, aunque al momento de "aceptar" el diálogo, se verificará que el formato sea correcto. **[Deseable: control que permita introducir horarios más facilemente]**. El horario de fin debe ser posterior al de finalización (ya que todas las clases empiezan y terminan en el mismo día), lo cual se verifica al momento de "aceptar" el diálogo.
+    
+ - **( \*7 )** y **( \*8 )**: Son horarios con el formato "HH:MM", con el horario de 00:00 a 23:59 (sin AM/PM), este campo es alfanumérico y no tiene ninguna restricción en los caracteres que puede incluir, aunque al momento de "aceptar" el diálogo, se verificará que el formato sea correcto. **[Deseable: control que permita introducir horarios más fácilmente]**. El horario de fin debe ser posterior al de finalización (ya que todas las clases empiezan y terminan en el mismo día), lo cual se verifica al momento de "aceptar" el diálogo.
+ 
  - **( \*9 )**: Este campo soporta las siguientes opciones:
     - Teórica Obligatoria, 
     - Práctica Obligatoria, 
