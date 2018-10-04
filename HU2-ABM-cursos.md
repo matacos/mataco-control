@@ -1,3 +1,17 @@
+# Propuestas de modificación del "HU2: ABM cursos" para la segunda iteración
+
+
+## Propuesta 1: (HU2.1) Los cursos vacíos existen
+Si no se le agregan profesores u horarios a un curso, en el cliente android se mostrarán tales campos como "a definir" en ese curso.
+
+## Propuesta 2: (HU2.2) Los cursos vacíos existen pero los alumnos no los ven
+Si no se le agregan profesores u horarios a un curso, estos cursos serán visibles por parte de los administradores de departamento, pero no por parte de los estudiantes a través de la app.
+
+## Propuesta 3: (HU2.3) Los cursos vacíos no existen en la base de datos
+La interfaz no envía datos de cursos vacíos al servidor. Así, si el curso no se envía a la base de datos, el usuario verá una advertencia indicándole que debe agregar docentes u horarios.
+
+![Pantalla principal de departamento](./prototipos/depto/depto-ppal-modificado.png)
+
 # HU2: Como administrador de departamento, quiero hacer ABM de cursos.
 
 ## Criterios de aceptación
