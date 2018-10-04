@@ -48,6 +48,7 @@ El usuario ingresa un archivo CSV con los siguientes campos:
 - Apellido
 - Prioridad
 - Email
+- Lista de carreras a las que está anotado, como enteros separados por guiones.
 
 ## Importar docentes
 El usuario ingresa un archivo CSV con los siguientes campos:
