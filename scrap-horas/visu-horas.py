@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import json
 import numpy as np
+import arrow
 
 scrap=json.load(open("scrap-horas.json"))
 estimations=scrap["estimations"]
@@ -10,8 +11,8 @@ for issue in full_explanations:
     explanations[issue]={}
     efforts=explanations[issue]
     for effort in full_explanations[issue]:
-        if effort["date"]<'2018-09-14T04:52:27Z':
-            continue
+        #if effort["date"]<'2018-09-24T00:00:00Z':
+        #    continue
         u=effort["user"]
         w=effort["work"]
         efforts[u]=efforts.get(u,0)+w
@@ -32,6 +33,24 @@ for issue in explanations.keys():
             if explanations[issue][k]>explanations[issue][worked]:
                 worked=k
     worked_most[issue]=worked
+
+speed={}
+for issue in explanations.keys():
+    try:
+        speed[issue]=float(estimations[issue])*60.0/float(total_explanations[issue])
+    except Exception as e:
+        print(e)
+
+events={}
+for issue in full_explanations:
+    for effort in full_explanations[issue]:
+        try:
+            events[effort["date"]]={
+                "real_hours":effort["work"],
+                "estimation_hours":float(effort["work"])*float(speed[issue])
+            }
+        except Exception as e:
+            print(e)
 
 
 def mostrar_puntos(con_labels,por_repos):
@@ -79,7 +98,8 @@ def mostrar_puntos(con_labels,por_repos):
         for i,txt in enumerate(n):
             ax.annotate(txt,(x[i],y[i]))
 
-    plt.show()
+    plt.savefig("mostrar_puntos {} {}.png".format(con_labels,por_repos))
+    plt.clf()
 
 
 #mostrar_puntos(True,False)
@@ -113,7 +133,8 @@ def mostrar_columnas_repo():
     plt.bar(x=locations,height=y,color="#00FF5588")
     plt.legend("estimación","realidad")
     plt.xticks(locations,n)
-    plt.show()
+    plt.savefig("columnas_repo.png")
+    plt.clf()
 
 
 def mostrar_columnas_personas():
@@ -143,10 +164,58 @@ def mostrar_columnas_personas():
     plt.bar(x=locations,height=y,color="#00FF5588")
     plt.legend("estimación","realidad")
     plt.xticks(locations,n)
+    plt.savefig("columnas_personas.png")
+    plt.clf()
+
+def mostrar_burndown():
+    print(events)
+
+    times=sorted(events.keys())
+    events_ordered=[events[t] for t in times]
+    real_hours=[e["real_hours"] for e in events_ordered]
+    estimation_hours=[e["estimation_hours"] for e in events_ordered]
+
+    total_estimation=sum([estimations[i] for i in estimations])*60.0
+    print(total_estimation/60.0)
+
+
+
+    estimation_hours[0]=total_estimation-estimation_hours[0]
+    real_hours[0]=total_estimation-real_hours[0]
+    for i in range(1,len(times)):
+        real_hours[i]=real_hours[i-1]-real_hours[i]
+        estimation_hours[i]=estimation_hours[i-1]-estimation_hours[i]
+
+    estimation_hours=[e/60.0 for e in estimation_hours]
+    real_hours=[r/60.0 for r in real_hours]
+
+    times=[arrow.get(t).timestamp for t in times]
+    plt.plot(times,real_hours)
+    plt.plot(times,estimation_hours)
+    plt.plot([times[0],times[len(times)-1]],[0,0])
     plt.show()
 
-mostrar_puntos(False,False)
+def mostrar_lista():
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    for issue in explanations.keys() & estimations.keys():
+        if "ERROR" in issue:
+            continue
+        print(issue,total_explanations[issue]/60.0,estimations[issue],sep=",")
+mostrar_lista()
+#mostrar_burndown()
+#mostrar_puntos(False,False)
+#mostrar_puntos(False,True)
+#mostrar_puntos(True,False)
+#mostrar_puntos(True,True)
+#mostrar_columnas_personas()
 #mostrar_columnas_repo()
+##mostrar_columnas_repo()
 
 
 
