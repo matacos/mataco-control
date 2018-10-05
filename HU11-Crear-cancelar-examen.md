@@ -17,5 +17,7 @@
 
 5. El docente tendrá la posibilidad de cancelar un final. Al hacerlo aparecerá un mensaje de confirmación de la operación, y en caso de aceptar se le enviará una notificación a los alumnos inscriptos.
 
+6. Únicamente puede crear o cancelar exámenes un jefe de cátedra de un curso de la materia correspondiente.
+
 ## Prototipo
 ![](./prototipos/crear_eliminar_final.png)
