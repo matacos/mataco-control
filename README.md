@@ -7,3 +7,12 @@
  - [HU6 Ver los inscriptos a cada curso](HU6-Ver-los-inscriptos-a-cada-curso)
  - [HU7 Inscripcion](HU7-Inscripcion)
  - [HU8 Aceptar condicionales](HU8-Aceptar-condicionales)
+# Historias de usuario para sprint 2
+ - [HU9 Como estudiante quiero inscribirme a un examen](HU9-inscripcion-examen)
+ - [HU10 Como estudiante quiero ver a qué exámenes me inscribí](HU10-mis-examenes)
+ - [HU11 Como profesor quiero crear o cancelar un examen](HU11-Crear-cancelar-examen)
+ - [HU12: Como profesor quiero enviar una notificación a alumnos inscriptos a un final o a una cursada](HU12-enviar-notificacion-alumnos)
+ - [HU13: Como administrador quiero importar datos](HU13-importar-datos)
+ - [HU14: Como profesor quiero descargar un listado de alumnos inscriptos a un curso](HU14-inscriptos-final)
+ - [HU15: Como profesor quiero descargar un listado de alumnos inscriptos a un curso](HU15-inscriptos-cursada)
+ - [HU16: Como alumno quiero poder recibir notificaciones](HU16-notificaciones)

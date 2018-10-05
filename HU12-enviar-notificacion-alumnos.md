@@ -1,4 +1,4 @@
-# HU11: Como profesor quiero enviar una notificación a alumnos inscriptos a un final o a una cursada
+# HU12: Como profesor quiero enviar una notificación a alumnos inscriptos a un final o a una cursada
 
 ## Criterios de aceptación
 1. Dado un docente que ingresa al sistema, puede visualizar el listado de alumnos inscriptos a un final/cursada y enviarles una notificación a esos alumnos.

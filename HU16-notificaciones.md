@@ -1,4 +1,4 @@
-# HU18: Como alumno quiero poder recibir notificaciones
+# HU16: Como alumno quiero poder recibir notificaciones
 
 ## Criterios de aceptación
 
