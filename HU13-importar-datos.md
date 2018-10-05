@@ -6,7 +6,7 @@ El usuario administrador ingresa un archivo en formato CSV con los siguientes ca
 - Código de materia
 - Nombre de la materia
 - Carreras que pueden cursar la materia (códigos de carrera separados con guiones)
-- Materias necesarias (códigos de materia separadas con guiones)
+- Materias necesarias (códigos de materia <código de depto>.<código de materia> separadas con guiones)
 
 Archivo de eliminación: cada fila tiene los siguientes campos:
 - Código de departamento
