@@ -5,7 +5,7 @@
 
 2. Para poder enviar una notificación, el docente debe ingresar un mensaje. Ese campo de mensaje no podrá estar vació al momento de enviar la notificación.
 
-3. El docente tendrá la posibilidad de enviar la notificación o cancelarla.
+3. Una vez escrito el contenido de la notificación, el docente tendrá la posibilidad de enviarla o no.
 
 ## Prototipo
 ![](./prototipos/enviar-notificaciones-web.png)
