@@ -25,7 +25,7 @@ El usuario administrador puede ingresa tres archivos CSV con los siguientes camp
 - Archivo de docentes:
     - Nombre del curso **(referencia univocamente a un curso)**
     - DNI del profesor
-    - Cargo del docentes en el curso
+    - Cargo del docente en el curso
 - Archivo de eliminación de docentes:
     - Nombre del curso
     - DNI del docente
