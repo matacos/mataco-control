@@ -7,6 +7,7 @@
     - Nombre del estudiante
     - Apellido del estudiante
     - Tipo de inscripción (regular o libre)
+    - Prioridad del estudiante
 
 ## Prototipo
 ![](./prototipos/descargar-listado-final.png)
