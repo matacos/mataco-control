@@ -16,7 +16,7 @@
 + Hora en la que termina el examen
 + Aula 
 + Instancia de examen
-+ Sede en la que se deberá cursar: Paseo Colón o Las Heras 
++ Sede en donde se tomará el examen: Paseo Colón o Las Heras 
 + Opción para inscribirse a ese examen: mediante el botón "Inscribirse"
 
 4. Una vez que el alumno se haya inscripto al examen, esa instancia no deberá aparecerle de vuelta en el listado de inscripciones disponibles de esa materia.
@@ -26,4 +26,4 @@
 
 ## Prototipo
 
-![Oferta académica](./prototipos/inscripcion_examen.png)
+![Exámenes](./prototipos/inscripcion_examen.png)
