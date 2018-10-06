@@ -1,4 +1,4 @@
-# HU18: Como alumno quiero poder silenciar ciertas notificaciones
+# HU17: Como alumno quiero poder silenciar ciertas notificaciones
 
 ## Criterios de aceptación
 

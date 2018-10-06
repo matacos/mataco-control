@@ -16,4 +16,4 @@
 ## Prototipo
 
 
-![Aceptar condicionales](./prototipos/aceptar-condicionales.png)
+![Aceptar condicionales](./prototipos/listado-inscriptos.png)

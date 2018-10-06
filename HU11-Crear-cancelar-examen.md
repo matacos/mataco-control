@@ -19,5 +19,15 @@
 
 6. Únicamente puede crear o cancelar exámenes un jefe de cátedra de un curso de la materia correspondiente.
 
+7. Las sedes válidas son:
+    - Paseo Colón
+    - Las Heras
+    - Ciudad Universitaria
+    
+8. El aula es un campo alfanumérico de menos de 100 caracteres, ya que los códigos de algunas aulas incluyen letras.
+
+9. La fecha será en formato DD/MM/AAAA
+
+10. Son horarios con el formato "HH:MM", con el horario de 00:00 a 23:59 (sin AM/PM), este campo es alfanumérico y no tiene ninguna restricción en los caracteres que puede incluir, aunque al momento de "aceptar" el diálogo, se verificará que el formato sea correcto. **[Deseable: control que permita introducir horarios más fácilmente]**. El horario de fin debe ser posterior al de finalización (ya que todas las clases empiezan y terminan en el mismo día), lo cual se verifica al momento de "aceptar" el diálogo.
 ## Prototipo
 ![](./prototipos/crear_eliminar_final.png)
