@@ -13,12 +13,11 @@
 
 3. Si un docente modifica la fecha y hora de un final, no podrá asignarle una fecha y hora que ya haya pasado, o que esté dentro de las 48 horas futuras.
 
-4. Un docente no puede mover las fechas de final hacia atrás en el tiempo, sólo postponerlas.
+4. Un docente no puede mover las fechas de final hacia atrás en el tiempo, sólo posponerlas.
 
 5. Las sedes válidas son:
     - Paseo Colón
     - Las Heras
-    - Ciudad Universitaria
     
 6. El aula es un campo alfanumérico de menos de 100 caracteres, ya que los códigos de algunas aulas incluyen letras.
 

@@ -14,12 +14,12 @@
 + Hora en la que termina el examen
 + Aula 
 + Instancia de examen
-+ Sede en la que se deberá cursar: Paseo Colón, Las Heras o Ciudad Universitaria. Estará ubicada en la esquina inferior izquierda de cada inscripción
-+ Opción para desinscribirse de ese examen: mediante el botón "Desinscribirse", ubicado en la esquina inferior derecha de cada inscripción
++ Sede en la que tendrá lugar el examen: Paseo Colón o Las Heras
++ Opción para desinscribirse de ese examen: mediante el botón "Desinscribirse"
 4. El sistema debe listar únicamente todos los exámenes en los cuales el alumno se inscribió.
 5. Cada examen debe diferenciarse del resto: se ubicarán en tarjetas.
 	
 
 ## Prototipo
 
-![Materias en las que me inscribí](./prototipos/mis_inscripciones_examen.png)
+![Exámenes en los que me inscribí](./prototipos/mis_inscripciones_examen.png)

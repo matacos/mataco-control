@@ -10,4 +10,4 @@
     - Estado de la inscripción (regular o condicional)
 
 ## Prototipo
-![](./prototipos/descargar-listado-cursada.png)
+![](./prototipos/listado_inscriptos.png)

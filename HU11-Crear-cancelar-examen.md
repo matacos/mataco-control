@@ -22,7 +22,6 @@
 7. Las sedes válidas son:
     - Paseo Colón
     - Las Heras
-    - Ciudad Universitaria
     
 8. El aula es un campo alfanumérico de menos de 100 caracteres, ya que los códigos de algunas aulas incluyen letras.
 

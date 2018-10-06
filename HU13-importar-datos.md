@@ -6,7 +6,7 @@ El usuario administrador ingresa un archivo en formato CSV con los siguientes ca
 - Código de materia
 - Nombre de la materia
 - Carreras que pueden cursar la materia (códigos de carrera separados con guiones)
-- Materias necesarias (códigos de materia <código de depto>.<código de materia> separadas con guiones)
+- Materias correlativas (códigos de materia <código de depto>.<código de materia> separadas con guiones)
 
 Archivo de eliminación: cada fila tiene los siguientes campos:
 - Código de departamento
@@ -34,8 +34,8 @@ El usuario administrador puede ingresa tres archivos CSV con los siguientes camp
     - Nombre del aula
     - Sede del aula
     - Día de la semana (primeras 3 letras minúsculas del día correspondiente)
-    - hora de inicio (en formato HH:MM)
-    - hora de finalización (en formato HH:MM)
+    - Hora de inicio (en formato HH:MM)
+    - Hora de finalización (en formato HH:MM)
     - Tipo de clase (Práctica Obligatoria, Teórica Obligatoria, etc.)
 - Archivo de eliminación de horarios:
     - Nombre del curso (se eliminan todos los horarios de ese curso)
@@ -90,7 +90,7 @@ No se puede usar un DNI de profesor ni de administrador de departamento.
  - 13.2: Que la tabla se pueda descargar
  - 13.3: Que el front-end permita subir archivos.
  - 13.4 Que el front-end permita visualizar cada tabla
- - 13.5: ABM de cursos, dicentes, estudiantes y materias en el front end.
+ - 13.5: ABM de cursos, docentes, estudiantes y materias en el front end.
  - 13.6: se incluye la gestión de administradores de departamento y administradores del sistema
 
 ## Prototipos
