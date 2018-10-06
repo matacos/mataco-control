@@ -58,13 +58,32 @@ El usuario ingresa un archivo CSV con los siguientes campos:
 - Apellido
 - Email
 
+## Importar administradores de departamento
+El usuario ingresa un archivo CSV con los siguientes campos:
+- DNI
+- Contraseña inicial
+- Nombre
+- Apellido
+- Email
+- Departamento
+El DNI puede ser el de un profesor, de ser así, se actualizan los campos correspondientes y se le brinda tmbién el rango de administrador de departamento.
+
+## Importar administradores del sistema
+El usuario ingresa un archivo CSV con los siguientes campos:
+- DNI
+- Contraseña inicial
+- Nombre
+- Apellido
+- Email
+No se puede usar un DNI de profesor ni de administrador de departamento.
 
 ## Criterios de aceptación
- - Si el usuario sube un archivo que no obedece el formato que le corresponde, el sistema informará la línea del archivo que genera tal error.
- - El usuario podrá subir cualquier archivo de los listados arriba
- - Si el administrador sube un archivo que incluye una clave que ya existe (DNI, padrón o código de materia, para el archivo de docentes, estudiantes y materias, respectivamente), se actualizará el registro correspondiente de la base de datos.
- - En el caso de que el administrador suba un archivo de cursos con el nombre de un curso que ya existe, tal curso se restablecerá, eliminándose los profesores y horarios del mismo.
- - Los archivos de eliminación eliminan los registros correspondientes
+- Si el usuario sube un archivo que no obedece el formato que le corresponde, el sistema informará la línea del archivo que genera tal error.
+- El usuario podrá subir cualquier archivo de los listados arriba
+- Si el administrador sube un archivo que incluye una clave que ya existe (DNI para el archivo de docentes, padrón para el de estudiantes, código de materia para el de materias, DNI para el de administradores de departamento y para el de administradores del sistema), se actualizará el registro correspondiente de la base de datos.
+- En el caso de que el administrador suba un archivo de cursos con el nombre de un curso que ya existe, tal curso se restablecerá, eliminándose los profesores y horarios del mismo.
+- Los archivos de eliminación eliminan los registros correspondientes, con las mismas claves primarias que en el criterio de aceptación que se refiere a la actualización de registros.
+
 
 ## Historias de usuario menores:
  - 13.1: Que la subida de archivos sea por medio de un script python, que corra por línea de comandos.
@@ -72,6 +91,7 @@ El usuario ingresa un archivo CSV con los siguientes campos:
  - 13.3: Que el front-end permita subir archivos.
  - 13.4 Que el front-end permita visualizar cada tabla
  - 13.5: ABM de cursos, dicentes, estudiantes y materias en el front end.
+ - 13.6: se incluye la gestión de administradores de departamento y administradores del sistema
 
 ## Prototipos
 ![](./prototipos/administrador/importar_cursos.png)
