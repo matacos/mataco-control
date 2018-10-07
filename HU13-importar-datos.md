@@ -66,6 +66,7 @@ El usuario ingresa un archivo CSV con los siguientes campos:
 - Apellido
 - Email
 - Departamento
+
 El DNI puede ser el de un profesor, de ser así, se actualizan los campos correspondientes y se le brinda tmbién el rango de administrador de departamento.
 
 ## Importar administradores del sistema
@@ -75,6 +76,7 @@ El usuario ingresa un archivo CSV con los siguientes campos:
 - Nombre
 - Apellido
 - Email
+
 No se puede usar un DNI de profesor ni de administrador de departamento.
 
 ## Criterios de aceptación
