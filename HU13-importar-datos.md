@@ -1,4 +1,6 @@
 # HU13: Como administrador quiero importar datos
+# Esta historia de usuario fue eliminada y reemplazada por 19, 20, 21, 22
+
 
 ## Importar materias:
 El usuario administrador ingresa un archivo en formato CSV con los siguientes campos:

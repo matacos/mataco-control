@@ -1,4 +1,5 @@
 # HU16: Como alumno quiero poder recibir notificaciones
+# ESTA HISTORIA DE USUARIO FUE ELIMINADA EN FAVOR DE LAS HU 24, 25, 26, 27
 
 ## Criterios de aceptación
 
