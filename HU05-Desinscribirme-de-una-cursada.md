@@ -11,4 +11,4 @@ Mismos criterios de aceptación que HU4: Ver en qué materias me inscribí
 
 ## Prototipo
 
-![ingreso en app](./prototipos/listado_inscriptos.png)
+![ingreso en app](./prototipos/mis_inscripciones.png)
