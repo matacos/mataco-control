@@ -25,6 +25,6 @@
  - [HU23: Como alumno quiero recibir una notificación cuando el reloj de mi dispositivo marca que faltan 48 horas para que comience un examen al que me inscribí.](HU23-notificación-local)
  - [HU24: Como alumno recibir notificaciones enviadas por el servidor](HU24-notificación-firebase)
  - [HU25: Como alumno recibir notificaciones enviadas por el servidor cuando falta 48 horas para que comience un examen al que me inscribí](HU25-notificación-examen-firebase)
- - [HU26: Como alumno recibir notificaciones enviadas por el servidor cuando se cancela un examen](HU24-notificación-cancelacion-firebase)
- - [HU26: Como alumno recibir notificaciones enviadas por el servidor cuando se modifica un examen](HU24-notificación-modificacion-firebase)
+ - [HU26: Como alumno recibir notificaciones enviadas por el servidor cuando se cancela un examen](HU26-notificación-cancelacion-firebase)
+ - [HU26: Como alumno recibir notificaciones enviadas por el servidor cuando se modifica un examen](HU27-notificacion-modificacion-firebase)
 
