@@ -26,5 +26,10 @@
  - [HU24: Como alumno recibir notificaciones enviadas por el servidor](HU24-notificación-firebase)
  - [HU25: Como alumno recibir notificaciones enviadas por el servidor cuando falta 48 horas para que comience un examen al que me inscribí](HU25-notificación-examen-firebase)
  - [HU26: Como alumno recibir notificaciones enviadas por el servidor cuando se cancela un examen](HU26-notificación-cancelacion-firebase)
+<<<<<<< HEAD
  - [HU26: Como alumno recibir notificaciones enviadas por el servidor cuando se modifica un examen](HU27-notificacion-modificacion-firebase)
 
+=======
+ - [HU27: Como alumno recibir una notificación cuando se modifica un examen al que me inscribí](HU27-notificacion-modificacion-firebase)
+ - [HU28: Como profesor quiero ver un listado de alumnos inscriptos a un final](HU28-Ver-inscriptos-examen)
+>>>>>>> daa1e6759f567c3bf1f1dee33cf525713bfeb5d9
