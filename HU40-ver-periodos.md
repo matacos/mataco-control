@@ -6,5 +6,4 @@
 2. El administrador podrá ver todos los campos de cada período según lo definido en HU37.
 
 ## Prototipos
-## Prototipos
 ![](./prototipos/administrador-v2/ver_periodos.png)
