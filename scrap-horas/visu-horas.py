@@ -11,7 +11,7 @@ for issue in full_explanations:
     explanations[issue]={}
     efforts=explanations[issue]
     for effort in full_explanations[issue]:
-        if effort["date"]<'2018-10-16T00:00:00Z':
+        if effort["date"]<'2018-10-02T00:00:00Z':
             continue
         print("===========")
         print(issue)
@@ -94,6 +94,8 @@ def mostrar_puntos(con_labels,por_repos):
     ax.plot([0,10],[0,5])
     ax.scatter(x,y,c=colors)
     plt.xlabel("estimación")
+    plt.xlim(0,20)
+    plt.ylim(0,20)
     plt.ylabel("Total tiempo invertido")
 
     if con_labels:
@@ -170,7 +172,13 @@ def mostrar_columnas_personas():
     plt.clf()
 
 def mostrar_burndown():
+    print("##################")
+    print("##################")
+    print("##################")
     print(events)
+    print("##################")
+    print("##################")
+    print("##################")
 
     times=sorted(events.keys())
     events_ordered=[events[t] for t in times]
@@ -193,7 +201,7 @@ def mostrar_burndown():
 
     times=[arrow.get(t).timestamp for t in times]
     plt.plot(times,real_hours)
-    plt.plot(times,estimation_hours)
+    #plt.plot(times,estimation_hours)
     plt.plot([times[0],times[len(times)-1]],[0,0])
     plt.show()
 
@@ -214,14 +222,14 @@ def mostrar_lista():
 
 
 #mostrar_lista()
-#mostrar_burndown()
+mostrar_burndown()
 #mostrar_puntos(False,False)
 #mostrar_puntos(False,True)
 #mostrar_puntos(True,False)
 #mostrar_puntos(True,True)
 mostrar_columnas_personas()
-mostrar_columnas_repo()
-##mostrar_columnas_repo()
+#mostrar_columnas_repo()
+#mostrar_columnas_repo()
 
 
 
