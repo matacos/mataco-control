@@ -4,4 +4,4 @@
 - Dado que un alumno se inscribió a un examen, cuando ese examen es cancelado recibirá una notificación. 
 
 ## Prototipo
-![Menú lateral de navegación](./prototipos/notificaciones.png)
+![Menú lateral de navegación](./prototipos/notificaciones_examen_cancelado.png)

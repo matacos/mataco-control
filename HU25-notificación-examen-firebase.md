@@ -4,4 +4,4 @@
 - Dado que un alumno se inscribió a un examen y que faltan 48 horas para el comienzo de ese examen según el reloj del servidor, recibirá una notificación. 
 
 ## Prototipo
-![Menú lateral de navegación](./prototipos/notificaciones.png)
+![Menú lateral de navegación](./prototipos/notificaciones_aviso_de_examen.png)
