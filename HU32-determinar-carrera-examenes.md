@@ -1,4 +1,4 @@
-# Como alumno quiero determinar la carrera para la cual quiero ver la oferta de exámenes
+# HU32: Como alumno quiero determinar la carrera para la cual quiero ver la oferta de exámenes
 
 ## Criterios de aceptación
 1. Cuando un alumno selecciona la oferta de exámenes, primero se le mostrará una pantalla en donde deberá determinar la carrera sobre la cual quiere ver los exámenes disponibles para inscribirse.
