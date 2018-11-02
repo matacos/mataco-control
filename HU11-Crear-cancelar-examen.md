@@ -9,13 +9,13 @@
 + Aula donde se tomará el examen
 + Hora de inicio
 + Hora de finalización
-+ Nombre, apellido, padrón y condición (regular o libre) del alumno que se inscribió
++ Nombre, apellido, padrón y condición (regular o libre) del estudiante que se inscribió
 
 3. El docente tendrá la posibilidad de agregar un final. Al agregarlo podrá ingresar información sobre el mismo: aula, fecha, sede, hora de inicio y de finalización; y confirmar o cancelar la creación del final.
 
 4. El docente puede agregar, como máximo, 5 finales.
 
-5. El docente tendrá la posibilidad de cancelar un final. Al hacerlo aparecerá un mensaje de confirmación de la operación, y en caso de aceptar se le enviará una notificación a los alumnos inscriptos.
+5. El docente tendrá la posibilidad de cancelar un final. Al hacerlo aparecerá un mensaje de confirmación de la operación, y en caso de aceptar se le enviará una notificación a los estudiantes inscriptos.
 
 6. Únicamente puede crear o cancelar exámenes un jefe de cátedra de un curso de la materia correspondiente.
 

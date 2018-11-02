@@ -11,7 +11,7 @@ Tiene los siguientes campos:
 - Archivo de cursos con los siguientes campos:
 - Código de departamento de la materia
 - Código de materia
-- Nombre del curso a ser mostrado a los alumnos
+- Nombre del curso a ser mostrado a los estudiantes
 - Cupo
 - Campos de horarios, que se repiten 4 veces. En caso de usarse menos de 4, se dejan vacíos los sobrantes:
     - Aula

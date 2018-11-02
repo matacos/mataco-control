@@ -1,4 +1,4 @@
-# HU14: Como profesor quiero descargar un listado de alumnos inscriptos a un final
+# HU14: Como profesor quiero descargar un listado de estudiantes inscriptos a un final
 
 ## Criterios de aceptación
 - El formato de archivo que se descarga estará en formato CSV.

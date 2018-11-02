@@ -1,4 +1,4 @@
-# HU15: Como profesor quiero descargar un listado de alumnos inscriptos a un curso
+# HU15: Como profesor quiero descargar un listado de estudiantes inscriptos a un curso
 
 ## Criterios de aceptación
 - El formato de archivo que se descarga estará en formato CSV.

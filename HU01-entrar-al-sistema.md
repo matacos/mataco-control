@@ -1,10 +1,10 @@
-# HU1-A: Como alumno, quiero entrar al sistema
+# HU1-A: Como estudiante, quiero entrar al sistema
 
 ## Criterios de aceptación para siguientes sprints
 
 1. Cuando una persona no entró al sistema, no verá otra pantalla que no sea la de login.
 
-2. Los alumnos entrarán al sistema con su padrón, que es un entero de 5 o 6 dígitos.
+2. Los estudiantes entrarán al sistema con su padrón, que es un entero de 5 o 6 dígitos.
 
 3. Al usuario se le permitirá escribir un caracter no numérico en este campo, pero al realizar la acción correspondiente para enviar el formulario, se le advertirá "Debés ingresar tu padrón, que sólo tiene caracteres numéricos" **[En android se mostrará un teclado que no permite introducir caracteres]**. Al usuario no se le permitirá acceder.
 
