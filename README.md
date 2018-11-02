@@ -52,4 +52,3 @@
 - [HU39: Como administrador quiero modificar un período lectivo](HU39-modificar-periodo)
 - [HU40: Como administrador quiero visualizar los períodos lectivos](HU40-ver-periodos)
 - [HU41: Como estudiante quiero poder ver mi historial académico](HU41-historial-academico)
->>>>>>> e421416026675f822d905df66641e7366f90588b
