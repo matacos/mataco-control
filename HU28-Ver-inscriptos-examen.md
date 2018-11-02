@@ -1,4 +1,4 @@
-# HU28: Como profesor quiero ver un listado de estudiantes inscriptos a un final
+# HU28: Como docente quiero ver un listado de estudiantes inscriptos a un final
 
 ## Criterios de aceptación
 1. Dado un docente que ingresa al sistema, puede visualizar las fechas de final que creó y conocer el listado de estudiantes inscriptos a cada una de esas fechas.

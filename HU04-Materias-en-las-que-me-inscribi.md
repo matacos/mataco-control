@@ -7,7 +7,7 @@
 + Código de la materia
 + Nombre de la materia
 + Número de curso 
-+ Nombre y apellido de los profesores
++ Nombre y apellido de los docentes
 + Estado de la inscripción: regular o condicional
 + Horarios: se deberá indicar el día junto con la hora de inicio y finalización de la clase. 
 + Aula correspondiente a cada horario.

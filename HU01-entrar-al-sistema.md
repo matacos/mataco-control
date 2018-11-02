@@ -56,11 +56,11 @@
 
 8. Los mensajes detallados en los criterios de aceptación anteriores se muestran como texto rojo en la pantalla de ingreso, luego de enviar el formulario.
 
-9. Si un profesor es también administrador de departamento, al ingresar entrará a la pantalla de profesor, y tendrá un link que lo conducirá a la pantalla de administración de departamento.
+9. Si un docente es también administrador de departamento, al ingresar entrará a la pantalla de docente, y tendrá un link que lo conducirá a la pantalla de administración de departamento.
 
 10. Si el usuario ingresa una combinación inválida de DNI y contraseña, entonces se mostrará el mensaje "Esa combinación de DNI y contraseña no es correcta", y no se le permitirá acceder.
 
-11. Si el usuario ingresa una combinación válida de DNI y contraseña, entonces se accederá a la siguiente pantalla, que es la pantalla principal del profesor o del administrador de departamento.
+11. Si el usuario ingresa una combinación válida de DNI y contraseña, entonces se accederá a la siguiente pantalla, que es la pantalla principal del docente o del administrador de departamento.
 
 ## Criterios de aceptación respecto de los campos [nuevo 24/9]
 

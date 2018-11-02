@@ -1,4 +1,4 @@
-# HU11: Como profesor quiero crear o cancelar un examen
+# HU11: Como docente quiero crear o cancelar un examen
 
 ## Criterios de aceptación
 1. Dado un docente que ingresa al sistema, puede visualizar las fechas de final que creó y conocer el listado de estudiantes inscriptos a cada una de esas fechas.

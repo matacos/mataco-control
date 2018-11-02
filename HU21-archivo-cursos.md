@@ -20,7 +20,7 @@ Tiene los siguientes campos:
     - Horario de inicio
     - Horario de finalización
     - Tipo de clase
-- Campos de DNI de profesores (serán 6) (los que no se usan se dejan en blanco):
+- Campos de DNI de docentes (serán 6) (los que no se usan se dejan en blanco):
     - Jefe de cátedra
     - Jefe de Trabajos Prácticos
     - Auxiliar 1

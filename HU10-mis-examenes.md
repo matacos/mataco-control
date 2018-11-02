@@ -7,7 +7,7 @@
 + Código de la materia
 + Nombre de la materia
 + Número de curso 
-+ Nombre y apellido de los profesores
++ Nombre y apellido de los docentes
 + Estado de la inscripción: regular o libre
 + Fecha
 + Hora en la que comienza el examen
