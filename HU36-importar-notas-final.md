@@ -8,8 +8,6 @@
 5. **Sólo se puede subir un archivo de notas durante un período posterior a la finalización del final**
 
 ## Prototipo
-<<<<<<< HEAD
+
 ![Listado de estudiantes inscriptos curso](./prototipos/subir-notas-final.png)
-=======
-![Listado de estudiantes inscriptos curso](./prototipos/subir-notas-final.png)
->>>>>>> e421416026675f822d905df66641e7366f90588b
+

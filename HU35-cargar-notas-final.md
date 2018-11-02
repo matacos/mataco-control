@@ -7,8 +7,5 @@
 
 ## Prototipo
 Aclaración: el valor de la nota es a la vez un campo que se puede editar. Los cambios se impactan contra el servidor cuando el usuario quita el foco del mismo o presiona "enter". Presionar "Enter" coloca el cursor en el campo de abajo, para que el docente modifique otra nota.
-<<<<<<< HEAD
 ![Listado de estudiantes inscriptos curso](./prototipos/cargar-notas-final.png)
-=======
-![Listado de estudiantes inscriptos curso](./prototipos/cargar-notas-final.png)
->>>>>>> e421416026675f822d905df66641e7366f90588b
+

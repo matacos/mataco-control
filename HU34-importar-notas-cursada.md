@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-# HU33: Como docente quiero cargar notas de cursada de los estudiantes
-=======
-# HU34: Como docente quiero poder importar las notas de cursada de los alumnos
+# HU34: Como docente quiero poder importar las notas de cursada de los estudiantes
 
->>>>>>> e421416026675f822d905df66641e7366f90588b
 ## Criterios de aceptación
 1. El docente podrá ver las notas de cursada de los estudiantes inscriptos a un curso.
 2. Cuando el docente sube un archivo csv de notas, figurará su contenido en el sistema.
@@ -11,8 +7,5 @@
 4. Si se sube un archivo de notas que incluye padrones que no se encuentran inscriptos al curso, los mismos serán ignorados.
 
 ## Prototipo
-<<<<<<< HEAD
 ![Listado de estudiantes inscriptos curso](./prototipos/listado_inscriptos_subir_archivo.png)
-=======
-![Listado de alumnos inscriptos curso](./prototipos/listado_inscriptos_subir_archivo.png)
->>>>>>> e421416026675f822d905df66641e7366f90588b
+
