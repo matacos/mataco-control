@@ -26,7 +26,7 @@ El usuario administrador puede ingresa tres archivos CSV con los siguientes camp
     - Nombre del curso
 - Archivo de docentes:
     - Nombre del curso **(referencia univocamente a un curso)**
-    - DNI del profesor
+    - DNI del docente
     - Cargo del docente en el curso
 - Archivo de eliminación de docentes:
     - Nombre del curso
@@ -69,7 +69,7 @@ El usuario ingresa un archivo CSV con los siguientes campos:
 - Email
 - Departamento
 
-El DNI puede ser el de un profesor, de ser así, se actualizan los campos correspondientes y se le brinda tmbién el rango de administrador de departamento.
+El DNI puede ser el de un docente, de ser así, se actualizan los campos correspondientes y se le brinda tmbién el rango de administrador de departamento.
 
 ## Importar administradores del sistema
 El usuario ingresa un archivo CSV con los siguientes campos:
@@ -79,13 +79,13 @@ El usuario ingresa un archivo CSV con los siguientes campos:
 - Apellido
 - Email
 
-No se puede usar un DNI de profesor ni de administrador de departamento.
+No se puede usar un DNI de docente ni de administrador de departamento.
 
 ## Criterios de aceptación
 - Si el usuario sube un archivo que no obedece el formato que le corresponde, el sistema informará la línea del archivo que genera tal error.
 - El usuario podrá subir cualquier archivo de los listados arriba
 - Si el administrador sube un archivo que incluye una clave que ya existe (DNI para el archivo de docentes, padrón para el de estudiantes, código de materia para el de materias, DNI para el de administradores de departamento y para el de administradores del sistema), se actualizará el registro correspondiente de la base de datos.
-- En el caso de que el administrador suba un archivo de cursos con el nombre de un curso que ya existe, tal curso se restablecerá, eliminándose los profesores y horarios del mismo.
+- En el caso de que el administrador suba un archivo de cursos con el nombre de un curso que ya existe, tal curso se restablecerá, eliminándose los docentes y horarios del mismo.
 - Los archivos de eliminación eliminan los registros correspondientes, con las mismas claves primarias que en el criterio de aceptación que se refiere a la actualización de registros.
 
 

@@ -1,10 +1,10 @@
-# HU1-A: Como alumno, quiero entrar al sistema
+# HU1-A: Como estudiante, quiero entrar al sistema
 
 ## Criterios de aceptación para siguientes sprints
 
 1. Cuando una persona no entró al sistema, no verá otra pantalla que no sea la de login.
 
-2. Los alumnos entrarán al sistema con su padrón, que es un entero de 5 o 6 dígitos.
+2. Los estudiantes entrarán al sistema con su padrón, que es un entero de 5 o 6 dígitos.
 
 3. Al usuario se le permitirá escribir un caracter no numérico en este campo, pero al realizar la acción correspondiente para enviar el formulario, se le advertirá "Debés ingresar tu padrón, que sólo tiene caracteres numéricos" **[En android se mostrará un teclado que no permite introducir caracteres]**. Al usuario no se le permitirá acceder.
 
@@ -56,11 +56,11 @@
 
 8. Los mensajes detallados en los criterios de aceptación anteriores se muestran como texto rojo en la pantalla de ingreso, luego de enviar el formulario.
 
-9. Si un profesor es también administrador de departamento, al ingresar entrará a la pantalla de profesor, y tendrá un link que lo conducirá a la pantalla de administración de departamento.
+9. Si un docente es también administrador de departamento, al ingresar entrará a la pantalla de docente, y tendrá un link que lo conducirá a la pantalla de administración de departamento.
 
 10. Si el usuario ingresa una combinación inválida de DNI y contraseña, entonces se mostrará el mensaje "Esa combinación de DNI y contraseña no es correcta", y no se le permitirá acceder.
 
-11. Si el usuario ingresa una combinación válida de DNI y contraseña, entonces se accederá a la siguiente pantalla, que es la pantalla principal del profesor o del administrador de departamento.
+11. Si el usuario ingresa una combinación válida de DNI y contraseña, entonces se accederá a la siguiente pantalla, que es la pantalla principal del docente o del administrador de departamento.
 
 ## Criterios de aceptación respecto de los campos [nuevo 24/9]
 

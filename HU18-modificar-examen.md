@@ -1,4 +1,4 @@
-# HU18: Como profesor quiero modificar un examen
+# HU18: Como docente quiero modificar un examen
 
 ## Criterios de aceptación
 

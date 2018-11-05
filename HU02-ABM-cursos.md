@@ -2,10 +2,10 @@
 
 
 ## Propuesta 1: (HU2.1) Los cursos vacíos existen
-Si no se le agregan profesores u horarios a un curso, en el cliente android se mostrarán tales campos como "a definir" en ese curso.
+Si no se le agregan docentes u horarios a un curso, en el cliente android se mostrarán tales campos como "a definir" en ese curso.
 
-## Propuesta 2: (HU2.2) Los cursos vacíos existen pero los alumnos no los ven
-Si no se le agregan profesores u horarios a un curso, estos cursos serán visibles por parte de los administradores de departamento, pero no por parte de los estudiantes a través de la app.
+## Propuesta 2: (HU2.2) Los cursos vacíos existen pero los estudiantes no los ven
+Si no se le agregan docentes u horarios a un curso, estos cursos serán visibles por parte de los administradores de departamento, pero no por parte de los estudiantes a través de la app.
 
 ## Propuesta 3: (HU2.3) Los cursos vacíos no existen en la base de datos
 La interfaz no envía datos de cursos vacíos al servidor. Así, si el curso no se envía a la base de datos, el usuario verá una advertencia indicándole que debe agregar docentes u horarios.
@@ -21,7 +21,7 @@ La interfaz no envía datos de cursos vacíos al servidor. Así, si el curso no 
  
  - El usuario sólo puede ver las materias del departamento que le corresponde.
  
- - Si el usuario es también profesor, verá un link para ir a la vista de profesor
+ - Si el usuario es también docente, verá un link para ir a la vista de docente
  
  - El usuario ve los cursos de cada materia por separado.
  

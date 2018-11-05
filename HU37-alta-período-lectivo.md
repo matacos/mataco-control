@@ -16,7 +16,7 @@
 4. Los estudiantes sólo podrán inscribirse a cursos durante el período de inscripción a cursos.
 5. Los estudiantes sólo podrán desinscribirse a cursos desde la fecha de inicio del período de inscripción a cursos y hasta la fecha de fin del período de desinscripción a cursos.
 6. Los estudiantes sólo podrán inscribirse o desinscribirse a finales entre la fecha de publicación de la oferta de finales y el fin del período de finales.
-7. Los profesores sólo podrán crear finales que tengan lugar entre la fecha de fin de cursada y la fecha de fin del período de finales.
+7. Los docentes sólo podrán crear finales que tengan lugar entre la fecha de fin de cursada y la fecha de fin del período de finales.
 8. El código del período lectivo tiene como máximo 10 caracteres.
 
 ![Períodos](./HU37-esquema.png)

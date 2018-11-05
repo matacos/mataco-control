@@ -11,7 +11,7 @@ Tiene los siguientes campos:
 - Archivo de cursos con los siguientes campos:
 - Código de departamento de la materia
 - Código de materia
-- Nombre del curso a ser mostrado a los alumnos
+- Nombre del curso a ser mostrado a los estudiantes
 - Cupo
 - Campos de horarios, que se repiten 4 veces. En caso de usarse menos de 4, se dejan vacíos los sobrantes:
     - Aula
@@ -20,7 +20,7 @@ Tiene los siguientes campos:
     - Horario de inicio
     - Horario de finalización
     - Tipo de clase
-- Campos de DNI de profesores (serán 6) (los que no se usan se dejan en blanco):
+- Campos de DNI de docentes (serán 6) (los que no se usan se dejan en blanco):
     - Jefe de cátedra
     - Jefe de Trabajos Prácticos
     - Auxiliar 1
