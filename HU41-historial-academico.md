@@ -10,6 +10,28 @@
 + Resultado del examen (Aprobado/Desaprobado)
 + Nota del examen (D si está desaprobado, entre 4 y 10 si está aprobado)
 + Número de acta del examen
+4. Las condiciones para que figure un insuficiente en la pantalla de historial académico son:
++ *Desaprueba 3 veces:* El alumno reúne 3 desaprobaciones de finales de la materia como regular en los períodos de final de los siguientes cuatrimestres:
+    + El mismo cuatrimestre en que aprobó una cursada de la misma materia
+    + El cuatrimestre inmediato posterior al mismo
+    + El cuatrimestre inmediato posterior a ese
++ *Como libre:* El alumno desaprobó un examen como libre
++ *Desaprueba 1 o 2 veces y se vence:* El alumno reúne 1 o 2 desaprobaciones de finales de la materia, y ninguna aprobación de algún final de la materia como regular en los períodos de final de los siguientes cuatrimestres:
+    + El mismo cuatrimestre en que aprobó una cursada de la misma materia
+    + El cuatrimestre inmediato posterior al mismo
+    + El cuatrimestre inmediato posterior a ese
+
+
+> Si al final de este lapso el estudiante se ha presentado
+> al menos una vez a rendir la evaluación integradora sin
+> aprobarla o si ya ha rendido y desaprobado tres veces
+> aunque todavía no se haya agotado el lapso, recibe la
+> calificación de Insuficiente que se asienta en los Libros
+> de Actas de Examen y debe recursar la asignatura.
+> Si no se presenta ninguna vez, se considera que “se le
+> venció” la cursada, y debe recursar, pero no recibe la
+> calificación de Insuficiente
+Extraído de http://www.fi.uba.ar/sites/default/files/preguntasFrec_digital_0.pdf
 
 ## Prototipo
 

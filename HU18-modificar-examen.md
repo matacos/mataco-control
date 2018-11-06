@@ -25,6 +25,8 @@
 
 8. Son horarios con el formato "HH:MM", con el horario de 00:00 a 23:59 (sin AM/PM), este campo es alfanumérico y no tiene ninguna restricción en los caracteres que puede incluir, aunque al momento de "aceptar" el diálogo, se verificará que el formato sea correcto. **[Deseable: control que permita introducir horarios más fácilmente]**. El horario de fin debe ser posterior al de finalización (ya que todas las clases empiezan y terminan en el mismo día), lo cual se verifica al momento de "aceptar" el diálogo.
 
+9. No se pueden modificar exámenes que ya hayan pasado.
+
 
 ## Prototipo
 ![](./prototipos/modificar_final.png)

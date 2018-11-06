@@ -6,6 +6,7 @@
 3. El csv de notas debe tener 2 columnas, una de padrones, otra de notas. Los padrones deben ser cadenas de menos de 10 caracteres, las notas deben ser enteros de 1 a 10, o bien el caracter "-". Cuando se sube un archivo que no cumple esta definición, se mostrará un diálogo que informa "archivo erróneo, problema en línea N".
 4. Si se sube un archivo de notas que incluye padrones que no se encuentran inscriptos al final, los mismos serán ignorados.
 5. **Sólo se puede subir un archivo de notas durante un período posterior a la finalización del final**
+6. A los alumnos que no se encuentran en el archivo subido pero que sin embargo están inscriptos al final se tratarán como si hubieran tenido la nota "-".
 
 ## Prototipo
 

@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import json
 import numpy as np
 import arrow
+import re
 
 scrap=json.load(open("scrap-horas.json"))
 estimations=scrap["estimations"]
@@ -216,12 +217,38 @@ def mostrar_lista():
     for issue in explanations.keys() & estimations.keys():
         if "ERROR" in issue:
             continue
-        if not "mataco-app" in issue:
-            continue
         print(issue,total_explanations[issue]/60.0,estimations[issue],sep=",")
+
+def mostrar_lista_HU():
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    explanations_hu={}
+    estimations_hu={}
+    for issue in explanations.keys() & estimations.keys():
+        if "ERROR" in issue:
+            continue
+        parte=re.search("HU([0-9]+) -",issue)
+        if parte ==None:
+            continue
+        hu = parte.group(1)
+        current_explanation=explanations_hu.get(hu,0.0)
+        explanations_hu[hu]=current_explanation + total_explanations[issue]/60.0
+
+        current_estimation=estimations_hu.get(hu,0.0)
+        estimations_hu[hu]=current_explanation + estimations[issue]
+        
+    for hu in explanations_hu.keys():
+        print(hu,explanations_hu[hu],estimations_hu[hu],sep=",")
+        #print(issue,total_explanations[issue]/60.0,estimations[issue],sep=",")
 
 
 #mostrar_lista()
+"""
 mostrar_burndown()
 mostrar_puntos(False,False)
 mostrar_puntos(False,True)
@@ -229,6 +256,7 @@ mostrar_puntos(True,False)
 mostrar_puntos(True,True)
 mostrar_columnas_personas()
 mostrar_columnas_repo()
-
+"""
+mostrar_lista_HU()
 
 
