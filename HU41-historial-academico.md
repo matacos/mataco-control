@@ -1,4 +1,4 @@
-# HU10: Como estudiante quiero poder ver mi historial académico
+# HU41: Como estudiante quiero poder ver mi historial académico
 
 ## Criterios de aceptación
 1. Dado un estudiante que ingresó a la aplicación, cuando se dirige al “Historial Académico” se mostrará un listado con todos los exámenes que rindió desde que se encuentra en la facultad.
