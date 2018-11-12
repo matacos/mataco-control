@@ -6,7 +6,7 @@
 3. Cada examen debe tener la siguiente información: 
 + Código de la materia
 + Nombre de la materia
-+ Fecha en la re rindió la materia
++ Fecha en la se rindió el examen o el la que se desaprobó la materia
 + Resultado del examen ( entre 4 y 10 si aprobó, "2 (insuf)" si desaprobó)
 4. Las condiciones para que figure un insuficiente en la pantalla de historial académico son:
 + *Desaprueba 3 veces:* El alumno reúne 3 desaprobaciones de finales de la materia como regular en los períodos de final de los siguientes cuatrimestres:
