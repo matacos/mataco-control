@@ -12,7 +12,7 @@ for issue in full_explanations:
     explanations[issue]={}
     efforts=explanations[issue]
     for effort in full_explanations[issue]:
-        if effort["date"]<'2018-10-24T00:00:00Z':
+        if effort["date"]<'2018-11-6T00:00:00Z':
             continue
         print("===========")
         print(issue)
@@ -319,14 +319,13 @@ def mostrar_lista_HU():
 
 #mostrar_lista()
 
-#mostrar_burndown()
-#mostrar_puntos(False,False)
-#mostrar_puntos(False,True)
-#mostrar_puntos(True,False)
-#mostrar_puntos(True,True)
-#mostrar_columnas_personas()
-#mostrar_columnas_repo()
-#mostrar_lista_HU()
+mostrar_puntos(False,False)
+mostrar_puntos(False,True)
+mostrar_puntos(True,False)
+mostrar_puntos(True,True)
+mostrar_columnas_personas()
+mostrar_columnas_repo()
+mostrar_lista_HU()
 
 mostrar_columnas_hus()
 
