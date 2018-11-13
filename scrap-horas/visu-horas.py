@@ -12,7 +12,7 @@ for issue in full_explanations:
     explanations[issue]={}
     efforts=explanations[issue]
     for effort in full_explanations[issue]:
-        if effort["date"]<'2018-11-6T00:00:00Z':
+        if effort["date"]<'2018-11-06T00:00:00Z':
             continue
         print("===========")
         print(issue)

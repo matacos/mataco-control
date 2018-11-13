@@ -1,16 +1,11 @@
 mataco-app/88 Automatizar deploy del front end
 mataco-app/87 HU27 - PUT /finales/<id>
-mataco-app/86 HU25 - Modificar la lectura de notificaciones de firebase para permitir multiples tipos 
-mataco-app/85 HU41 - Testing y calidad
-mataco-app/84 HU41 - Leer el campo "approved_course" del GET de materias y permitir o no que un alumno se inscriba como libre o regular.
-mataco-app/83 HU32 - Testing y calidad
 mataco-app/82 HU32 - Modificar lógica para tener en cuenta la carrera al mostrar los cursos del estudiante en ExamSubjectsSelectActivityActivity
 mataco-app/81 HU32 - Agregar lógica cuando se presiona el botón de la carrera en ExamSubjectsSelectActivityActivity
 mataco-app/80 HU32 - Crear xml asociados al adapter ExamSubjectsSelectActivityAdapter
 mataco-app/79 HU32 - Crear xml asociados a la activity ExamSubjectsSelectActivityActivity
 mataco-app/78 HU32 - Crear adapter ExamSubjectsSelectActivityAdapter
 mataco-app/77 HU32 - Crear activity ExamSubjectsSelectActivityActivity
-mataco-app/76 HU31 - Testing y calidad
 mataco-app/75 HU31 - Modificar lógica para tener en cuenta la carrera al mostrar los cursos del estudiante en SubjectsSelectActivityActivity
 mataco-app/74 HU31 - Agregar lógica cuando se presiona el botón de la carrera en SubjectsDegreeActivity
 mataco-app/73 HU31 - Creación de listado de carreras a partir del listado que se guarda en sharedPreferences en el login
@@ -26,7 +21,6 @@ mataco-app/64 HU41 - Crear xml asociados al adapter StudentRecordAdapter
 mataco-app/63 HU41 - Crear xml asociados a la activity StudentRecordActivity
 mataco-app/62 HU41 - Crear adapter StudentRecordAdapter
 mataco-app/61 HU41 - Crear activity StudentRecordActivity
-mataco-app/60 HU43: Temporalidad en app android (aparecen/desaparecen menúes)
 mataco-app/59 Crear Issues - Sprint 3
 mataco-app/55 Agregar integración de firebase para recibir notificaciones por cambios en examen
 mataco-app/54 Agregar texto cuando no hay inscripciones
@@ -78,67 +72,12 @@ mataco-app/4 Deployment a heroku
 mataco-app/3 Configuración de Travis
 mataco-app/2 Crear mockups de app y front-end
 mataco-app/1 Crear criterios de aceptación de app, server y front-end 
-mataco-server/135 Automatizar deploy del front-end
-mataco-server/134 HU15 - Testing y calidad (testing)
-mataco-server/133 HU15 - Descargar un excel de alumnos inscriptos a una cursada (front-end)
-mataco-server/132 HU14 - Testing y calidad (testing)
-mataco-server/131 HU14 - Descargar un excel de alumnos inscriptos a un final (front-end)
-mataco-server/130 HU27 - PUT /finales/<id> modifica examenes (back-end)
-mataco-server/129 HU40 - Testing y calidad (Testing) 
-mataco-server/128 HU40 - Request al server para obtener los períodos lectivos (front-end) 
-mataco-server/127 HU40 - Incluir información de cada período lectivo (front-end) 
-mataco-server/126 HU40 - Crear pantalla con el listado de períodos lectivos (front-end) 
-mataco-server/125 HU39 - Testing y calidad (Testing) 
-mataco-server/124 HU39 - PUT /ciclos_lectivos/<id> (back-end) 
-mataco-server/123 HU39 - Request al server para modificar período lectivo (front-end) 
-mataco-server/122 HU39 - Incluir restricciones sobre la modificación de acuerdo al estado del período lectivo y la fecha actual (front-end) 
-mataco-server/121 HU39 - Crear modal para la modificación del período lectivo (front-end) 
-mataco-server/120 HU39 - Incluir opción para modificar un período lectivo (front-end) 
-mataco-server/119 HU38 - Testing y calidad (Testing) 
-mataco-server/118 HU38 - DELETE /ciclos_lectivos/<id> (back-end) 
-mataco-server/117 HU38 - Request al server para eliminar período lectivo (front-end) 
-mataco-server/116 HU38 - Incluir restricciones sobre la eliminación de acuerdo al estado del período lectivo (front-end) 
-mataco-server/115 HU38 - Crear modal para la eliminación del período lectivo (front-end) 
-mataco-server/114 HU38 - Incluir opción para eliminar un período lectivo (front-end) 
-mataco-server/113 HU37 - Testing y calidad (Testing) 
-mataco-server/112 HU37 - Permitir que el docente pueda crear cursos en el período correspondiente  (front-end) 
-mataco-server/111 HU37 - Permitir que docente pueda crear finales en el período correspondientr (front-end ) 
-mataco-server/110 HU37 - Request al server para crear período lectivo (front-end) 
-mataco-server/109 HU37 - Crear modal para la creación de un período lectivo con las correspondientes verificaciones (front-end) 
-mataco-server/108 HU37 - Agregar opción para crear un nuevo período lectivo (front-end) 
-mataco-server/107 HU37 - Incluir opción de períodos lectivos en el panel con su correspondiente página (front-end) 
-mataco-server/106 HU36 - Testing y calidad (Testing) 
-mataco-server/105 HU36 - Construcción de tests de la subida de notas de cursada (back-end) 
-mataco-server/104 HU36 - querys de subida, inserción y eliminación del archivo de notas de final (back-end) 
-mataco-server/103 HU36 - Obtención y validación del archivo de notas de final (back-end) 
-mataco-server/102 HU36 - Posibilidad de ingresar notas en el período correspondiente (front-end) 
-mataco-server/101 HU36 - Mensajes de éxito/error de importación de notas de final (front-end) 
-mataco-server/100 HU36 - Crear modal con el botón para subir el csv + request al server (front-end) 
-mataco-server/99 HU36 - Crear opción para subir el csv de notas de final (front-end) 
-mataco-server/98 HU35 - Testing y calidad (Testing) 
-mataco-server/97 HU35 - PUT /inscripciones_final/<id>, permite alterar nota (back-end) 
-mataco-server/96 HU35 - Posibilidad de ingresar notas en el período correspondiente (front-end) 
-mataco-server/95 HU35 - Colocar la nota del final con sus verificaciones y request al server (front-end) 
-mataco-server/94 HU35 - Agregar columna correspondiente a la nota de final en la tabla de alumnos inscriptos al examen  (front-end) 
-mataco-server/93 HU34 - Testing y calidad (Testing) 
-mataco-server/92 HU34 - Construcción de tests de la subida de notas de cursada (back-end) 
-mataco-server/91 HU34 - querys de subida, inserción y eliminación del archivo de notas de cursada (back-end) 
-mataco-server/90 HU34 - Obtención y validación del archivo de notas de cursada (back-end) 
-mataco-server/89 HU34 - Mensajes de éxito/error de importación de notas de cursada (front-end) 
-mataco-server/88 HU34 - Crear modal con el botón para subir el csv + request al server (front-end) 
-mataco-server/87 HU34 - Crear opción para subir el csv de notas de cursada (front-end) 
-mataco-server/86 HU34 - Agregar columna correspondiente a la nota de cursada en la tabla de alumnos regulares de un curso (front-end) 
-mataco-server/85 HU33 - Testing y calidad (Testing) 
-mataco-server/84 HU33 - Colocar la nota de la cursada con sus verificaciones y request al server (front-end) 
 mataco-server/83 HU33 - Agregar columna correspondiente a la nota de cursada en la tabla de alumnos regulares de un curso (front-end) 
 mataco-server/82 HU27 - Testing y calidad (Testing) 
 mataco-server/81 HU27 - Hablarle a firebase cuando el profesor modifica un examen (back-end) 
-mataco-server/79 HU41 - Agregar un campo "approved_course" y "approved" en el GET de materias (back-end)
 mataco-server/78 HU41 - Agregar un campo "approved_course" y "approved" en el GET de materias
-mataco-server/77 HU41 - GET /<id estudiante>/historial_academico (back-end)
 mataco-server/76 HU40 - GET /ciclos_lectivos (back-end)
 mataco-server/75 HU37 - GET /inscripciones_cursada devuelve los cursos del ciclo actual (back-end)
-mataco-server/74 HU37 - GET /ciclo_lectivo_actual devuelve el cliclo lectivo correspondiente al parámetro "now" con todas sus fechas, y bools que indican qué puede hacer un estudiante (back-end)
 mataco-server/73 HU37 - GET /finales devuelve los finales posteriores a la fecha actual (back-end)
 mataco-server/72 HU37 - GET /cursos devuelve los cursos del ciclo actual (back-end)
 mataco-server/71 HU37 - Agregar un parámetro implícito "cycle" a todos los endpoints por medio de un middleware (back-end)
@@ -201,7 +140,6 @@ mataco-server/3 Get de de inscipciones a cursada de docente, get de los cursos d
 mataco-server/2 BDD: Inscriociones, cursos, materias, alumnos, docentes
 mataco-server/1 Definir la API y documentarla
 mataco-control/67 Armar el guión
-mataco-control/66 Mejorar los gráficos de métricas
 mataco-control/65 armar reporte de avance semana 2
 mataco-control/64 Crear activity StudentRecordActivity
 mataco-control/62 Issues front end + estimaciones [Sprint 3]
@@ -209,7 +147,6 @@ mataco-control/60 CC - Sprint 3
 mataco-control/59 HU42: ver historial de notas de final y de cursada
 mataco-control/58 HU41: ver historial de notas de final
 mataco-control/57 HU40: Como administrador quero poder ver un período lectivo.
-mataco-control/56 Crear Issues - Sprint 3
 mataco-control/55 HU39: Como administrador quero poder modificar un período lectivo.
 mataco-control/54 HU38: Como administrador quero poder dar de baja un período lectivo.
 mataco-control/53 HU37: Como administrador quero poder dar de alta un período lectivo.
