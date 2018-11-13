@@ -29,10 +29,6 @@
  - [HU27: Como estudiante recibir una notificación cuando se modifica un examen al que me inscribí](HU27-notificacion-modificacion-firebase)
  - [HU28: Como docente quiero ver un listado de estudiantes inscriptos a un final](HU28-Ver-inscriptos-examen)
 # Historias de usuario para sprint 3
- - [HU25: Como estudiante recibir notificaciones enviadas por el servidor cuando falta 48 horas para que comience un examen al que me inscribí](HU25-notificación-examen-firebase)
- - [HU27: Como estudiante recibir una notificación cuando se modifica un examen al que me inscribí](HU27-notificacion-modificacion-firebase)
- - [HU29: Como estudiante quiero recibir una notificación cuando se modifica un curso al que me inscribí](HU29-notificacion-modificacion-curso)
-- [HU30: Como estudiante quiero recibir una notificación cuando se elimina un curso al que me inscribí](HU30-notificacion-eliminacion-curso)
 - [HU31: Como estudiante quiero determinar la carrera para la cual quiero ver la oferta académica](HU31-determinar-carrera-cursos)
 - [HU32: Como estudiante quiero determinar la carrera para la cual quiero ver la oferta de exámenes](HU32-determinar-carrera-examenes)
 - [HU33: Como docente quiero cargar notas de cursada de los estudiantes](HU33-cargar-notas-cursada)

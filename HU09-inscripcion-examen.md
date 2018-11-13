@@ -23,6 +23,7 @@
 
 5. Una vez que haya pasado la fecha de examen, esa instancia no deberá aparecerle de vuelta en el listado de inscripciones disponibles de esa materia.
 
+6. Si no se encuetra en el período de inscripción a exámenes, en el caso de que existan exámenes disponibles no se le permitirá inscribirse  y se le indicará esta información.
 
 ## Prototipo
 

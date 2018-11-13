@@ -6,4 +6,4 @@
 3. Al seleccionar una carrera, será dirigido a la pantalla de oferta académica de esa carrera, en donde unicamente se mostrarán las materias pertenecientes al plan de la misma.
 
 ## Prototipo
-![Menú lateral de navegación](./prototipos/elegir-carrera.png)
+![Menú lateral de navegación](./prototipos/elegir-carrera-cursos.png)

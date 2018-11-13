@@ -12,6 +12,7 @@
 
 5. Dado un estudiante que se encuentra inscripto a una materia en particular, cuando visualice los cursos de esa materia, el botón de inscripción debe mostrarse de color gris y no debe ser posible presionarlo.
 
+6. Si no se encuetra en el período de inscripción a cursada, no se le permitirá inscribirse a la materia y se le indicará esta información.
 
 
 ## Prototipo

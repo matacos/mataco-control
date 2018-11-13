@@ -18,7 +18,8 @@
 + Opción para desinscribirse de ese examen: mediante el botón "Desinscribirse"
 4. El sistema debe listar únicamente todos los exámenes en los cuales el estudiante se inscribió.
 5. Cada examen debe diferenciarse del resto: se ubicarán en tarjetas.
-	
+6. Si no se encuetra en el período de inscripción a exámenes, en el caso de que existan exámenes a los que el alumno se inscribió, no se le permitirá desinscribirse  y se le indicará esta información.
+
 
 ## Prototipo
 
