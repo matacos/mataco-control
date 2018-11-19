@@ -8,3 +8,6 @@
 - Si el administrador selecciona otro departamento o período lectivo, se mostrará la información correspondiente a esos datos.
 - El sistema no permitirá mostrar reportes si falta algún dato. En caso de no seleccionar un departamento se mostrará el mensaje "Debe seleccionar un departamento" y, en caso de no seleccionar un período lectivo, "Debe seleccionar un período lectivo". Si faltan ambos datos, "Por favor, seleccione el departamento y período lectivo sobre los que quiere visualizar los reportes".
 - El administrador de departamento, al ingresar en "Reporte de encuestas" podrá visualizar la misma información pero únicamente para ese departamento en particular.
+
+## Prototipos
+![](./prototipos/administrador-v2/reporte_encuestas.png)
