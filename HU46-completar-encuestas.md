@@ -18,3 +18,8 @@
 - Una vez enviada la encuesta, se volverá a la pantalla con el listado de cursos para los cuales debe completar la encuesta
 - Una vez completada la encuesta, la materia dejará de aparecer en el listado
 - Si no hay cursos en el listado, se le será indicado
+
+## Prototipo
+![Menú lateral de navegación](./prototipos/pantalla_cursos_encuesta.png)
+![Menú lateral de navegación](./prototipos/pantalla_encuesta_1.png)
+![Menú lateral de navegación](./prototipos/pantalla_encuesta_2.png)
