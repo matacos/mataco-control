@@ -6,3 +6,7 @@
 - El mensaje a enviar tendrá un límite de 300 caracteres.
 - El docente podrá descartar la notificación o enviarla.
 - Luego de enviar la notificación se mostrará el mensaje: "Se ha enviado la notificación exitosamente" en caso de éxito, o: "No se pudo enviar la notificación, intente nuevamente" en caso de error.
+
+
+## Prototipos
+![](./prototipos/administrador-v2/enviar_notificacion.png)
