@@ -4,15 +4,18 @@ import numpy as np
 import arrow
 import re
 
-scrap=json.load(open("scrap-horas.json"))
+scrap=json.load(open("scrap-horas.bueno.json"))
 estimations=scrap["estimations"]
+print("?????????????????")
+print(len(estimations.keys()))
+print("?????????????????")
 full_explanations=scrap["explanations"]
 explanations={}
 for issue in full_explanations:
     explanations[issue]={}
     efforts=explanations[issue]
     for effort in full_explanations[issue]:
-        if effort["date"]<'2018-11-06T00:00:00Z':
+        if effort["date"]<'2018-11-13T00:00:00Z':
             continue
         print("===========")
         print(issue)
@@ -181,7 +184,7 @@ def mostrar_columnas_hus(con_otros=False):
             print(i)
             print(i,file=archivo_no_trabajadas)
             continue
-        parte=re.search("HU([0-9]+) -",i)
+        parte=re.search("HU([0-9]+)",i)
         hu="otros"
         if parte==None:
             if not con_otros:
@@ -190,12 +193,13 @@ def mostrar_columnas_hus(con_otros=False):
             hu=parte.group(1)
         e=burnt.get(hu,0)
         burnt[hu]=e+estimations[i]
+    
 
 
     totals={}
     worked_issues=set()
     for i in explanations:
-        parte=re.search("HU([0-9]+) -",i)
+        parte=re.search("HU([0-9]+)",i)
         hu="otros"
         if parte==None:
             if not con_otros:
@@ -207,18 +211,29 @@ def mostrar_columnas_hus(con_otros=False):
             total_hu=totals.get(hu,0)
             totals[hu]=total_hu+explanations[i][p]/60.0
 
-
     total_estimations={}
+
+    print("?????????????????")
+    print(len(estimations.keys()))
+    print("?????????????????")
+    print("?????????????????")
+    print(estimations.keys())
+    print("?????????????????")
     for i in estimations:
-        parte=re.search("HU([0-9]+) -",i)
+        parte=re.search("HU([0-9]+)",i)
         hu="otros"
         if parte==None:
             if not con_otros:
                 continue
         else:
             hu=parte.group(1)
+        print(i,hu,estimations[i])
         e=total_estimations.get(hu,0)
         total_estimations[hu]=e+estimations[i]
+
+    print("burnt",burnt)
+    print("totals",totals)
+    print("total_estimations",total_estimations)
             
         
     
@@ -226,7 +241,7 @@ def mostrar_columnas_hus(con_otros=False):
     y=[]
     z=[]
     n=[]
-    hus=sorted(list(burnt.keys() & totals.keys()))
+    hus=sorted(list(burnt.keys() & totals.keys()) + ["27","29","30"])
     for k in hus:
         n.append(k)
         x.append(burnt.get(k,0))
@@ -302,7 +317,7 @@ def mostrar_lista_HU():
     for issue in explanations.keys() & estimations.keys():
         if "ERROR" in issue:
             continue
-        parte=re.search("HU([0-9]+) -",issue)
+        parte=re.search("HU([0-9]+)",issue)
         if parte ==None:
             continue
         hu = parte.group(1)
