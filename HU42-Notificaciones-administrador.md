@@ -8,5 +8,5 @@
 - Luego de enviar la notificación se mostrará el mensaje: "Se ha enviado la notificación exitosamente" en caso de éxito, o: "No se pudo enviar la notificación, intente nuevamente" en caso de error.
 
 
-## Prototipos
-![](./prototipos/administrador-v2/enviar_notificacion.png)
+## Prototipo
+![](./prototipos/administrador-v2/enviar_notificaciones.png)
