@@ -26,7 +26,6 @@
  - [HU24: Como estudiante recibir notificaciones enviadas por el servidor](HU24-notificación-firebase)
  - [HU25: Como estudiante recibir notificaciones enviadas por el servidor cuando falta 48 horas para que comience un examen al que me inscribí](HU25-notificación-examen-firebase)
  - [HU26: Como estudiante recibir notificaciones enviadas por el servidor cuando se cancela un examen](HU26-notificación-cancelacion-firebase)
- - [HU27: Como estudiante recibir una notificación cuando se modifica un examen al que me inscribí](HU27-notificacion-modificacion-firebase)
  - [HU28: Como docente quiero ver un listado de estudiantes inscriptos a un final](HU28-Ver-inscriptos-examen)
 # Historias de usuario para sprint 3
 - [HU31: Como estudiante quiero determinar la carrera para la cual quiero ver la oferta académica](HU31-determinar-carrera-cursos)
@@ -40,3 +39,14 @@
 - [HU39: Como administrador quiero modificar un período lectivo](HU39-modificar-periodo)
 - [HU40: Como administrador quiero visualizar los períodos lectivos](HU40-ver-periodos)
 - [HU41: Como estudiante quiero poder ver mi historial académico](HU41-historial-academico)
+# Historias de usuario para sprint 4
+- [HU27: Como estudiante recibir una notificación cuando se modifica un examen al que me inscribí](HU27-notificacion-modificacion-firebase)
+- [HU29: Como estudiante quiero recibir una notificación cuando se modifica un curso al que me inscribí](HU29-notificacion-modificacion-curso)
+- [HU30: Como estudiante quiero recibir una notificación cuando se elimina un curso al que me inscribí](HU30-notificacion-eliminacion-curso)
+- [HU42: Como administrador, quiero enviar notificaciones a docentes y estudiantes](HU42-Notificaciones-administrador)
+- [HU43: Como docente quiero recibir notificaciones por mail](HU43-recibir-notificaciones-mail)
+- [HU45: Como estudiante, quiero modificar mi contraseña](HU45-modificar-contraseña)
+- [HU46: Como estudiante, quiero completar encuestas](HU46-completar-encuestas)
+- [HU47: Como estudiante, quiero descargar certificado de alumno regular](HU47-certificado)
+- [HU48: Como administrador quiero visualizar un reporte de encuestas](HU48-reporte-encuestas)
+- [HU49: Como administrador quiero visualizar un reporte de estudiantes y docentes](HU49-reporte-estudiantes-docentes)
