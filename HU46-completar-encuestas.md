@@ -21,7 +21,7 @@
 
 ## Prototipo
 ![Pantalla que lista los cursos](./prototipos/pantalla_cursos_encuesta.png)
-![Encuesta sin haber presionado el botón "Enviar"](./prototipos/pantalla_encuesta_2.png)
 ![Encuesta sin haber presionado el botón "Enviar"](./prototipos/pantalla_encuesta_1.png)
-![Encuesta habiendo presionado el botón "Enviar" pero incompleta](./prototipos/pantalla_encuesta_4.png)
-![Encuesta habiendo haber presionado el botón "Enviar" pero incompleta](./prototipos/pantalla_encuesta_3.png)
+![Encuesta sin haber presionado el botón "Enviar"](./prototipos/pantalla_encuesta_2.png)
+![Encuesta habiendo presionado el botón "Enviar" pero incompleta](./prototipos/pantalla_encuesta_3.png)
+![Encuesta habiendo haber presionado el botón "Enviar" pero incompleta](./prototipos/pantalla_encuesta_4.png)
