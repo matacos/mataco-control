@@ -12,5 +12,7 @@
 - El certificado será descargado en la carpeta “Downloads” presente por default en el celular. Una vez creado el documento, se abre la aplicación de lectura de pdf del celular para poder verlo. En caso contrario se le mostrará un mensaje diciendo que no se pudo generar el comprobante.
 
 ## Prototipo
-![Menú lateral de navegación](./prototipos/generar_certificado.png)
+![Menú lateral de navegación](./prototipos/generar_certificado_1.png)
+![Menú lateral de navegación](./prototipos/generar_certificado_2.png)
+![Menú lateral de navegación](./prototipos/generar_certificado_3.png)
 ![Menú lateral de navegación](./prototipos/cenritifaco_pdf.png)
