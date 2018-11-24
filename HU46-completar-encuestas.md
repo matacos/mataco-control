@@ -20,6 +20,8 @@
 - Si no hay cursos en el listado, se le será indicado
 
 ## Prototipo
-![Menú lateral de navegación](./prototipos/pantalla_cursos_encuesta.png)
-![Menú lateral de navegación](./prototipos/pantalla_encuesta_1.png)
-![Menú lateral de navegación](./prototipos/pantalla_encuesta_2.png)
+![Pantalla que lista los cursos](./prototipos/pantalla_cursos_encuesta.png)
+![Encuesta sin haber presionado el botón "Enviar"](./prototipos/pantalla_encuesta_1.png)
+![Encuesta sin haber presionado el botón "Enviar"](./prototipos/pantalla_encuesta_2.png)
+![Encuesta habiendo presionado el botón "Enviar" pero incompleta](./prototipos/pantalla_encuesta_3.png)
+![Encuesta habiendo haber presionado el botón "Enviar" pero incompleta](./prototipos/pantalla_encuesta_4.png)
