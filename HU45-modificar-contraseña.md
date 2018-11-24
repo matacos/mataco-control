@@ -9,6 +9,7 @@
 - En caso de que el estudiante se haya olvidado su contraseña, tendrá que ir al área de alumnos de la facultad para que le den una provisoria.
 
 ## Prototipo
+![Menú lateral de navegación](./prototipos/modificar-contrasenia_0.png)
 ![Menú lateral de navegación](./prototipos/modificar-contrasenia_1.png)
 ![Menú lateral de navegación](./prototipos/modificar-contrasenia_2.png)
 ![Menú lateral de navegación](./prototipos/modificar-contrasenia_3.png)
