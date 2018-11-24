@@ -15,7 +15,7 @@
 - Puede enviar la encuesta sin haber escrito en el campo de texto libre.
 - No puede enviar la encuesta sin haber completado todos los ítems de selección. Si no completó alguno debe mostrar en rojo aquellos que faltan y debe mostrar que es obligatorio.
 - Los ítems de selección serán números del 1 al 10
-- Una vez enviada la encuesta, se volverá a la pantalla con el listado de cursos para los cuales debe completar la encuesta
+- Una vez enviada la encuesta, se muestra un mensaje toast indicando se envió correctamente la encuesta y se volverá a la pantalla con el listado de cursos para los cuales debe completar la encuesta.
 - Una vez completada la encuesta, la materia dejará de aparecer en el listado
 - Si no hay cursos en el listado, se le será indicado
 
