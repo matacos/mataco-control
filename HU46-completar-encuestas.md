@@ -5,12 +5,12 @@
 - Un estudiante puede completar la encuesta correspondiente a una cursada únicamente si tiene una nota de cursada y se encuentra aprobada. Esto implica que las encuestas podrán realizarse inmediatamente después de que al estudiante se le asigne una nota de cursada.
 - La misma debe presentar los siguientes ítems, los cuales se responden con un puntaje de 1 a 10:
     - Opinión general sobre el curso
-    - ¿Cómo te resultaron los temas de la materia?
-    - ¿Los temas de la materia están actualizados?
     - Nivel de las clases teóricas del curso
     - Nivel de las clases prácticas del curso
     - Dificultad del curso
     - Dificultad del TP
+    - ¿Cómo te resultaron los temas de la materia?
+    - ¿Los temas de la materia están actualizados?
 - Al final de la encuesta podrá completar un campo de texto libre para realizar algún comentario sobre el curso.
 - Puede enviar la encuesta sin haber escrito en el campo de texto libre.
 - No puede enviar la encuesta sin haber completado todos los ítems de selección. Si no completó alguno debe mostrar en rojo aquellos que faltan y debe mostrar que es obligatorio.
